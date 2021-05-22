@@ -1,4 +1,30 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+	background-color: black;
+	font-family: Arial;
+	line-height: 30px;
+}
 
+h1{
+	color: grey;
+	text-align: center;
+	font-weight: bold;
+}
 
+button {
+	margin-top: 10px;
+}
+
+.outer-box {
+	background-color: white;
+	border-radius: 20px;
+	width: 80%;
+	margin: 10px 50px 0px 50px;
+	padding: 5px;
+	text-align: center;
+}
+
+.inner-box {
+	display: inline;
+	text-align: left;
+	width: 60%;
+}
