@@ -1,3 +1,11 @@
+for (var i = 1; i <= 15; i++) {
+    var el = document.createElement("option");
+    el.value = i;
+    el.innerHTML = i;
+    document.getElementById("years").appendChild(el);
+}
+document.getElementById("years").value = "3"
+
 function compute()
 {
     p = document.getElementById("principal").value;
