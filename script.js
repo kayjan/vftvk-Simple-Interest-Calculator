@@ -21,8 +21,3 @@ function compute()
 	result = "If you deposit <mark>" + p + "</mark>, at an interest rate of <mark>" + rate + "%</mark>.<br>You will receive an amount of <mark>" + value + "</mark>, in the year <mark>" + year2 + "</mark>.<br>This makes the total sum <mark>" + total + "</mark>.";
 	document.getElementById("result").innerHTML = result;
 }
-
-function updateTextInput(value) {
-	p = document.getElementById("textInput").value;
-	p = value;
-}
